@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'porpora';
+    src: url('./font/porpora-clt/porpora/desktop/Porpora-Regular\ 12.14.56.ttf');
+}
+
+@font-face {
+    font-family: 'Mazius Display';
+    src: url('./font/MaziusDisplay-clt/MaziusDisplay/desktop/MAZIUSREVIEW20.09-Italic.otf')
+}
+
+@font-face {
+    font-family: 'outward master';
+    src: url('./font/outward-master/outward-master/fonts/ttf/outward-block.ttf')
+}
+
+@font-face {
+    font-family: 'karrik';
+    src: url('./font/karrik_fonts-main/karrik_fonts-main/fonts/Desktop/TFF/Karrik-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'grotesk';
+    src: url('./font/grotesk-master/grotesk-master/fonts/_ttf/Grotesk-04Gras.ttf')
+}
+
+@font-face {
+    font-family:'mattone';
+    src: url('./font/Mattone-clt/Mattone-clt/desktop/Mattone-150.otf')
+}
+
+@keyframes move {
+    from {
+    left: 800px;
+    }
+    to {
+    left: -4800px;
+    }
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.wrapper {
+    padding: 50px;
+}
+
+.decor-container {
+    background-color:black;
+    height: 100px;
+}
+
+.decor {  
+    font-family: 'outward master';
+    font-size: 90px;
+    white-space: nowrap;
+
+    color: #F9C902;
+    
+    animation: move 30s infinite linear;
+    position: relative;
+}
+
+.names {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+
+    font-family: 'karrik';
+    font-size: 150px;
+}
+
+.jake {
+    /*text-align: left;*/
+    z-index: 0;
+}
+
+.amy {
+    /*text-align: right;*/
+    z-index: 2;
+}
+
+.intro {
+    font-family: 'porpora';
+    font-size: 30px;
+    text-align: center;
+    padding: 100px;
+}
+
+.jake1 {
+    font-family: 'mattone';
+    font-size: 30px;
+
+    padding: 30px;
+}
+
+.jake2 {
+    font-family: 'mattone';
+    font-size: 30px;
+
+    padding: 30px;
+}
+
+.jake3 {
+    font-family: 'Mazius Display';
+    font-size: 120px;
+
+    padding: 30px;
+
+    animation: animate__bounce infinite;
+    
+    animation-delay: 0s;
+    --animate-duration: 3s;
+}
+
+
+
+.jake4 {
+    font-family: 'mattone';
+    font-size: 30px;
+
+    padding: 30px;
+}
+
+.jake5 {
+    font-family: 'mattone';
+    font-size: 100px;
+
+    background: -webkit-linear-gradient(#e835ca, #DAF7A6, #12f4f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    padding: 30px;
+}
+
+.amy1 {
+    text-align: right;
+    padding: 30px;
+
+    font-family: 'mattone';
+    font-size: 30px;
+}
+
+.amy1:hover {
+    color:#ff0000;
+    font-size: 60px;
+}
+
+.amy2 {
+    text-align: right;
+    padding: 30px;
+
+    font-family: 'grotesk';
+    font-size: 100px;
+}
+
+.amy2:hover {
+    color: #ff0000;
+    font-size: 200px;
+}
+
+.amy3 {
+    text-align: right;
+    padding: 30px;
+
+    font-family: 'mattone';
+    font-size: 70px;
+}
