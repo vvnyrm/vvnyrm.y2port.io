@@ -1,0 +1,38 @@
+html {
+    background-color: #EEA5A5;
+}
+
+.wrapper {
+    margin-top: 200px;
+}
+
+.imageblock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageblock figure {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20vw;
+    margin: 0;
+}
+
+.imageblock figure * {
+    width: 100%;
+  }
+
+figcaption {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+a:link, :visited {
+    color:black;
+    text-decoration: none;
+}
+
+
+
